@@ -1,0 +1,183 @@
+/* Paleta de colores */
+.Colores {
+    /* Fondo */
+    color: #2733A0;
+    /* Segundo fondo */
+    color: #414DBA;
+    /* Letra */
+    color: #F1F1F1;
+    /* Grisaseo */
+    color: #B0A7A8;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+hr {
+    opacity: 10%;
+    color: #414DBA;
+}
+
+/* --------------------------------------- */
+
+.contHeader {
+    background-color: #2733A0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 1.5rem 0 2rem 4rem;
+}
+
+.contHeader h2 {
+    font-size: 1.8rem;
+    margin: 0 0 .1rem 0;
+}
+
+.contHeader p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.4;
+    padding: 0 0 0 1rem;
+}
+
+/* --------------------------------------- */
+
+.padreCostos {
+    width: 90%;
+    margin: 4rem auto;
+    display: flex;
+    justify-content: center;
+}
+
+.contDescPresu {
+    font-family: 'Poppins', sans-serif;
+}
+
+.contPresu {
+    padding: .5rem 0 2rem;
+    width: 860px;
+}
+
+.contPresu h2 {
+    font-size: 1.6rem;
+    margin: 1rem 0 .5rem 0;
+    text-align: center;
+}
+
+.contPresu p {
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.hrAjuste {
+    width: 80%;
+}
+
+.contListaPresu {
+    list-style: disc;
+}
+
+.soloTiempo {
+    position: absolute;
+    right: 27%;
+    margin: .5rem 0 0 0;
+}
+
+.soloTiempo p {
+    font-size: 1rem;
+}
+
+/* --------------------------------------- */
+
+.divisionHerramientas {
+    background-color: #2733A0;
+    padding: 1rem;
+}
+
+.divisionHerramientas h2 {
+    font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* --------------------------------------- */
+
+.padreAdicionales {
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contAdicionales {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contAdicionales h2 {
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.imgAdicional {
+    width: 70px;
+}
+
+/* --------------------------------------- */
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 4rem auto;
+}
+
+th {
+    background-color: #2733A0;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+td {
+    background-color: #414DBA;
+    color: white;
+    padding: 10px;
+}
+
+th,
+td {
+    border: none;
+    text-align: left;
+}
+
+td:hover {
+    background-color: #2733A0;
+}
+
+/* --------------------------------------- */
+
+.finalPresupuesto {
+    width: 80%;
+    margin: 2rem auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.4;
+}
+
+.pFinal {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.pFinal2 {
+    font-size: 0.8rem;
+}
+

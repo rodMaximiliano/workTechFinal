@@ -1,0 +1,44 @@
+/* Paleta de colores */
+.Colores {
+    /* Fondo */
+    color: #2733A0;
+    /* Segundo fondo */
+    color: #414DBA;
+    /* Letra */
+    color: #F1F1F1;
+    /* Grisaseo */
+    color: #B0A7A8;
+}
+
+.ajusteHeader {
+    margin: 0 0 0 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ajusteHeader2 {
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    border: 3px solid #ffffff;
+}
+
+.ajusteLogo {
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+    align-self: center;
+}
+
+.ajusteMarca {
+    padding: .5rem 1rem;
+    align-content: center;
+    background-color: #414DBA;
+}
+
+.ajusteMarca2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+}

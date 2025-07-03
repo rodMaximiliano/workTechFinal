@@ -1,0 +1,142 @@
+/* Paleta de colores */
+.Colores {
+    /* Fondo */
+    color: #2733A0;
+    /* Segundo fondo */
+    color: #414DBA;
+    /* Letra */
+    color: #F1F1F1;
+    /* Grisaseo */
+    color: #B0A7A8;
+}
+
+
+
+body {
+    background-color: #F1F1F1;
+}
+
+/* --------------------------------------- */
+
+.contNosotros {
+    margin: 4rem auto;
+    width: 85%;
+    color: #414DBA;
+}
+
+.nosotrosTitulo {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.nosotrosDesc {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    margin: .5rem 0 0 0;
+    color: black;
+}
+
+.contPadre {
+    margin: 0 auto;
+    width: 85%;
+    display: flex;
+    background-color: #2733A0;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
+.contForm {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0 3rem 3rem;
+}
+
+input {
+    margin: .5rem 2rem 2rem 0;
+    width: 30%;
+    padding: .4rem 0 .4rem .4rem;
+    background-color: #414DBA;
+    border: 1px solid #2733A0;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: #B0A7A8;
+}
+
+.contSelect {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin: 1rem 0 0 0;
+}
+
+select {
+    margin: .3rem 0 2rem 0;
+    background-color: #414DBA;
+    border: 1px solid #414DBA;
+    padding: .4rem 0 .4rem .4rem;
+    border-radius: 5px;
+    color: white;
+}
+
+textarea {
+    background-color: #414DBA;
+    border: 1px solid #414DBA;
+    margin: .4rem 0 0 0;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 800px;
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+label {
+    margin: 0 0 .25rem 0;
+}
+
+.contBoton {
+    margin: 2rem 0 0 0;
+    width: 20%;
+}
+
+.botonFormulario {
+    background-color: #414DBA;
+    color: #F1F1F1;
+    padding: .7rem .5rem .7rem .5rem;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid #2733A0;
+}
+
+.botonFormulario:hover {
+    cursor: pointer;
+    scale: 1.01;
+    transition: all .1s ease;
+}
+
+/* ----------------------------------------- */
+
+.contInfo {
+    background-color: #414DBA;
+    width: 35%;
+    border-radius: 0 7px 7px 0;
+    padding: 3rem;
+    text-align: center;
+}
+
+.contOtra {
+    margin: 3rem 0 0 0;
+}
+
+.tituloContactos {
+    font-size: 1.6rem;
+    margin: 4rem 0 .5rem 0;
+}

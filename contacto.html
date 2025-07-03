@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - workTech</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/contacto.css">
+    <link rel="stylesheet" href="styles/icon.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="contLista">
+                <a href="index.html">
+                    <div class="ajusteHeader">
+                        <div class="ajusteHeader2">
+                            <img src="assets/img/aprender-en-linea.png" alt="" class="ajusteLogo">
+                        </div>
+                        <div class="ajusteMarca">
+                            <p class="ajusteMarca2">workTech</p>
+                        </div>
+                    </div>
+                </a>
+
+
+                <a href="index.html" class="linkLista">
+                    <li class="link">Inicio</li>
+                </a>
+                <div class="divisor"></div>
+                <a href="modulos.html" class="linkLista">
+                    <li class="link">Modulos</li>
+                </a>
+                <div class="divisor"></div>
+                <a href="presupuesto.html" class="linkLista">
+                    <li class="link">Presupuesto</li>
+                </a>
+                <div class="divisor"></div>
+                <a href="contacto.html" class="linkLista">
+                    <li class="link">Contacto</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="contNosotros">
+        <h1 class="nosotrosTitulo">Estamos para resolver tus dudas</h1>
+        <p class="nosotrosDesc">Contamos tanto con contacto priopios como tambien nuestro formulario</p>
+    </article>
+    <section class="contPadre">
+        <form action="#" class="contForm">
+            <div>
+                <h3>Informacio personal*</h3>
+                <label for="nombre"></label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre...">
+                <label for="apellido"></label>
+                <input type="text" name="apellido" id="apellido" placeholder="Apellido...">
+
+            </div>
+            <div>
+                <h3>Info. contacto personal*</h3>
+                <label for="phone"></label>
+                <input type="text" name="phone" id="phone" placeholder="Numero de celular">
+                <label for="mail"></label>
+                <input type="mail" name="mail" id="mail" placeholder="Gmail - example@gmail.com">
+            </div>
+            <div class="contSelect">
+                <label for="opcion">Razon del contacto*</label>
+                <select name="opcion" id="opcion">
+                    <option value="1">Dudas sobre el presupuesto</option>
+                    <option value="2">Aclaracion de pequeños detalles</option>
+                    <option value="3">Revision general del proyecto</option>
+                    <option value="4">Incongruencias con la informacion</option>
+                    <option value="5">Otra opcion que no aparezca...</option>
+                </select>
+            </div>
+            <div class="contSelect">
+                <label for="comentario">Especificacion del contacto*</label>
+                <textarea name="comentario" id="comentario"
+                    placeholder="Explicar a detalle lo que ocurre sin omitir datos" rows="10" cols="200"></textarea>
+            </div>
+            <div class="contBoton">
+                <button class="botonFormulario">Enviar</button>
+            </div>
+
+        </form>
+        <div class="contInfo">
+            <p style="font-size: 1.8rem;">Otra forma de contacto?</p>
+            <p style="font-size: 10px; margin: .5rem 0 0 0;">(Tambien tenemos de esos)</p>
+
+            <div class="contOtra">
+                <div>
+                    <h3 class="tituloContactos">Celular</h3>
+                    <p>+54 9 3385-500622</p>
+                </div>
+                <div>
+                    <h3 class="tituloContactos">Gmail</h3>
+                    <p>info.example@gmail.com</p>
+                </div>
+                <div>
+                    <h3 class="tituloContactos">Social</h3>
+                    <p>Linkedin / Instagram / Facebook</p>
+                </div>
+                <div>
+                    <h3 class="tituloContactos">Ubicacion</h3>
+                    <p>Maps</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="contFooter">
+            <a href="index.html">
+                    <div class="ajusteHeader">
+                        <div class="ajusteHeader2">
+                            <img src="assets/img/aprender-en-linea.png" alt="" class="ajusteLogo">
+                        </div>
+                        <div class="ajusteMarca">
+                            <p class="ajusteMarca2">workTech</p>
+                        </div>
+                    </div>
+                </a>
+        </footer>
+</body>
+
+</html>

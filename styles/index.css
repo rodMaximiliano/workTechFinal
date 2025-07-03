@@ -1,0 +1,418 @@
+/* Paleta de colores */
+.Colores {
+    /* Fondo */
+    color: #2733A0;
+    /* Segundo fondo */
+    color: #414DBA;
+    /* Letra */
+    color: #F1F1F1;
+    /* Grisaseo */
+    color: #B0A7A8;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* --------------------------------------- */
+
+body {
+    background-color: #F1F1F1;
+}
+
+header {
+    background-color: #2733A0;
+    box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.divisor {
+    border: 1px solid #B0A7A8;
+    margin: .6rem 0 .6rem 0;
+    opacity: 10%;
+    height: 4rem;
+}
+
+.marca {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 3rem 0 4rem;
+}
+
+.marcaLink {
+    text-decoration: none;
+    color: #F1F1F1;
+}
+
+.contLista {
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.linkLista {
+    text-decoration: none;
+    list-style: none;
+    margin: 1.5rem 2rem 1.5rem 2rem;
+}
+
+.link {
+    padding: 1rem;
+    border-left: 1px solid gray;
+    border-right: 1px solid #414DBA;
+    color: white;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.link:hover {
+    opacity: 80%;
+}
+
+/* ----------------------------------------- */
+
+.contworkTech {
+    display: flex;
+    margin: 10rem auto;
+}
+
+.logo {
+    width: 360px;
+    border: 8px solid #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.imgLogo {
+    height: 300px;
+    width: 300px;
+    align-self: center;
+    filter: invert(100%);
+}
+
+.workTech {
+    padding: 4rem 3rem;
+    background-color: #414DBA;
+}
+
+.workTechTexto {
+    font-size: 16rem;
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------------------- */
+
+.contEntrevista {
+    color: white;
+    padding: 0 0 3rem 0;
+}
+
+.tituloIntrod {
+    font-size: 1.8rem;
+    margin: 0 0 1rem 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.descEntrevista {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0 5rem;
+    line-height: 1.2;
+}
+
+/* ----------------------------------------- */
+
+.contEntrevista2 {
+    background-color: #F1F1F1;
+
+}
+
+.contEntrevista2 hr {
+    opacity: 10%;
+    margin: 0 1rem 0 1rem;
+    color: #414DBA;
+}
+
+.imgEntrevista {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 1rem auto;
+    line-height: 1.4;
+}
+
+.img {
+    border-radius: 10px;
+    width: 550px;
+    height: auto;
+
+}
+
+.rightEntrevista {
+    margin: 0 0 0 3rem;
+    align-items: center;
+    align-content: center;
+}
+
+.leftEntrevista {
+    margin: 0 1rem 0 0;
+    align-content: center;
+}
+
+.rightEntrevista,
+.leftEntrevista h2 {
+    font-size: 1.8rem;
+}
+
+.miniDesc {
+    font-size: .9rem;
+    font-weight: 200;
+    margin: 3.5rem 0 0 0;
+}
+
+/* ----------------------------------------- */
+
+.contAclarar {
+    color: #F1F1F1;
+    text-align: center;
+    padding: 2rem 4rem;
+    background-color: #2733A0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0 4rem 0;
+}
+
+.contAclarar p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* ----------------------------------------- */
+
+.contAdministracion {
+    margin: 8rem 0 8rem 0;
+}
+
+.contAdmin {
+    line-height: 1.4;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.imgAdmin {
+    width: 600px;
+    height: auto;
+}
+
+.contAdministracion h2 {
+    font-size: 1.8rem;
+    margin: 0 0 .6rem 0;
+}
+
+.contAdministracion p {
+    font-size: 1.3rem;
+}
+
+.iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.iconX {
+    margin: 2rem 1rem 1rem 1rem;
+    padding: .5rem;
+    height: auto;
+    width: 5%;
+    border: 1px solid #F1F1F1;
+    border-radius: 100%;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+.iconX:hover {
+    scale: 1.05;
+    transition: all .1s ease-in-out;
+}
+
+/* ----------------------------------------- */
+
+.contWeb {
+    display: flex;
+    background-color: #2733A0;
+    padding: 5rem;
+    color: white;
+    line-height: 1.4;
+    justify-content: space-around;
+}
+
+.contWeb h2 {
+    font-size: 1.8rem;
+    margin: 0 0 .5rem 0;
+}
+
+.contWeb p {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.plataformaWeb {
+    width: 45%;
+    align-content: center;
+}
+
+.herramientas {
+    width: 50%;
+    text-align: center;
+}
+
+.iconJefe {
+    margin: 0 0 2rem 0;
+    height: auto;
+    width: 30%;
+    padding: 1rem;
+    border-radius: 100%;
+    box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* ----------------------------------------- */
+
+.contBotones {
+    text-align: center;
+    margin: 1.5rem 0 0 0;
+    width: 40%;
+    padding: 0 1.5rem 0 0;
+    line-height: 1.4;
+}
+
+.contBotones1 {
+    text-align: center;
+    margin: 1.5rem 0 0 0;
+    width: 40%;
+    padding: 0 0 0 1.5rem;
+    line-height: 1.4;
+}
+
+.botones {
+    border-top: 3px solid #B0A7A8;
+    border-left: 3px solid #B0A7A8;
+    border-right: 3px solid #2733A0;
+    border-bottom: 3px solid #2733A0;
+    border-radius: 15px;
+    color: white;
+    padding: 1rem 3.5rem 1rem 3.5rem;
+    background-color: #414DBA;
+    font-size: 1.2rem;
+    font-weight: 300;
+    width: 237px;
+}
+
+.botones:hover {
+    cursor: pointer;
+    scale: 1.01;
+    transition: all .05s ease-in-out;
+}
+
+.contFinal {
+    display: flex;
+    margin: 4rem auto;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.interesado {
+    font-size: 1.8rem;
+    margin: 0 0 1rem 0;
+}
+
+.contFlexBoton {
+    display: flex;
+    justify-content: center;
+}
+
+.contFlexBoton h2 {
+    font-size: 1.8rem;
+    margin: 1rem 0 1rem 0;
+}
+
+.contFlexBoton p {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+/* ----------------------------------------- */
+
+.contContacto {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacto {
+    display: flex;
+    align-items: center;
+}
+
+.contacto p {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 0 5rem 0 25rem;
+}
+
+.contacto h2 {
+    font-size: 6rem;
+    font-weight: 300;
+}
+
+.contacto a {
+    color: black;
+}
+
+.contacto a:hover {
+    text-decoration: none;
+}
+
+.contactoBoton {
+    width: 15%;
+    border-radius: 100%;
+    background-color: #414DBA;
+    padding: 1rem;
+    height: auto;
+}
+
+.contactoBoton:hover {
+    scale: 1.02;
+    transition: all .1s ease-in-out;
+}
+
+.imgContacto {
+    display: flex;
+    justify-content: end;
+}
+
+.aContacto {
+    width: 50%;
+}
+
+/* ----------------------------------------- */
+
+.contFooter {
+    background-color: #2733A0;
+    padding: 3rem;
+    margin: 4rem 0 0 0;
+}
+
+.ajusteLink {
+    text-decoration: none;
+    color: white;
+}
